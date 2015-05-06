@@ -1,0 +1,28 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/GameLayer.js",
+        "src/StartScene.js",
+        "src/Press.js",
+        "src/Note.js",
+        "src/Status.js",
+        "src/Heart.js",
+        "src/Action.js",
+        "src/EndLayer.js",
+        "src/StartLayer.js",
+        "src/resource.js",
+        "src/Item.js",
+        "src/HighScore.js",
+        "src/Light.js"
+      ]
+}
